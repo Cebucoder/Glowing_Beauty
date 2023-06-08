@@ -1,0 +1,145 @@
+.product-cont{
+    width: 100%;
+    /* height: 480px; */
+    min-height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.product-card{
+    width: 350px;
+    height: 480px;
+    /* background: lightgrey; */
+    box-shadow: 0 0 10px -3px lightgray;
+    position: relative;
+    margin: 10px 5px;
+    transition: 0.3s;
+}
+.product-card:hover{
+    box-shadow: 0 3px 10px 2px lightgray;
+}
+
+.product-img{
+    width: 100%;
+    height: 250px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    position: relative;
+}
+.product-img img{
+    width: 100%;
+}
+
+.product-details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+.product-details small{
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.product-details label{
+    font-size: 20px;
+    font-weight: 400;
+}
+.product-details p{
+    font-size: 14px;
+    font-weight: normal;
+    padding: 10px 0;
+}
+.product-details button{
+    width: 140px;
+    height: 40px;
+    margin: 5px 0;
+    font-size: 16px;
+    color: darkred;
+    font-family: 'Inter';
+    font-weight: 500 !important;
+    border: none;
+    background: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.sticker{
+    position: absolute;
+    top: 30px;
+    left: -10px;
+    width: 130px;
+    height: 40px;
+    border-radius: 0 5px 5px 0px;
+    background: rgba(28, 28, 28, 0.717);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: skewX(-15deg);
+    box-shadow: 2px 2px 10px -3px #fff;
+}
+.sticker small{
+    font-size: 14px;
+}
+
+@media (max-width:1185px){
+    .product-card{
+        margin: 10px 6px;
+        width: 340px;
+        height: auto;
+    }
+    .product-img{
+        height: auto;
+    }
+    .product-details label{
+        font-size: 16px;
+    }
+    .product-card p{
+        font-size: 13px;
+    }
+}
+
+@media (max-width:1116px){
+    .product-card{
+        margin: 10px 6px;
+        width: 32%;
+    }
+}
+
+@media (max-width:961px){
+    .product-card{
+        margin: 10px 6px;
+        width: 31%;
+    }
+}
+
+@media (max-width:703px){
+    .product-card{
+        margin: 10px 6px;
+        width: 47%;
+    }
+    .product-details p{
+        display: none;
+    }
+}
+
+@media (max-width:474px){
+    .product-card{
+        width: 48%;
+        margin: 10px 0;
+    }
+    .product-details{
+        padding: 10px 10px;
+    }
+    .sticker{
+        display: none;
+    }
+}
+
+

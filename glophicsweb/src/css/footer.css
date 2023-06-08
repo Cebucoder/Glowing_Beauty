@@ -1,0 +1,123 @@
+.Footer-container{
+    font-family: 'Inter', sans-serif;
+    width: 100%;
+    height: 400px;
+    /* background: pink; */
+}
+.load-more{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.load-more span{
+    width: 150px;
+    height: 50px;
+    /* border: 2px solid darkred; */
+    border:  2px solid #72882E;
+    border-radius: 5px;
+    /* color: darkred; */
+    color: #72882E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.load-more span:hover{
+    background: #72882E;
+    color: #fff;
+    cursor: pointer;
+}
+
+.join-team{
+    width: 100%;
+    height: 90px;
+    background: #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 35px 0;
+}
+.join-team label{
+    color: #fff;
+}
+
+.join-team span{
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: #fff; */
+    background: #72882E;
+    margin-left: 20px;
+    border-radius: 5px;
+    /* color: darkred; */
+    color: #fff;
+    transition: 0.3s;
+
+}
+
+.join-team span:hover{
+    background: none;
+    border: 2px solid #72882E;
+    color: #72882E;
+    cursor: pointer;
+}
+.address-social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 150px;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+}
+
+.reserved{
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:710px){
+    .address-social{
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width:446px){
+    .reserved{
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+@media (max-width:380px){
+    .join-team label{
+        font-size: 13px;
+    }
+    .join-team span{
+        height: 100px;
+        height: 40px;
+    }
+    .join-team{
+        height: 60px;
+    }
+}
+
+@media (max-width:375px){
+    .address-social{
+        flex-direction: column;
+    }
+    .address{
+        margin: 15px 0;
+    }
+}

@@ -1,0 +1,17 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+
+}
+.App{
+  margin: auto;
+  width: 100%;
+  max-width: 1140px;
+  height: 100vh;
+  /* background: pink; */
+  
+  padding: 30px 30px;
+}
