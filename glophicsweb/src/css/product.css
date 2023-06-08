@@ -17,6 +17,7 @@
     position: relative;
     margin: 10px 5px;
     transition: 0.3s;
+    background: #fff;
 }
 .product-card:hover{
     box-shadow: 0 3px 10px 2px lightgray;
@@ -116,6 +117,12 @@
     .product-card{
         margin: 10px 6px;
         width: 31%;
+    }
+}
+
+@media (max-width:376px){
+    .product-details label {
+        font-size: 13px !important;
     }
 }
 

@@ -1,11 +1,17 @@
 .navigation{
+    max-width: 1140px;
     width: 100%;
-    height: auto;
-    background: #fff;
+    height: 100px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: 'Inter', sans-serif;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    background: #fff;
+    transform: translate(-50%, 0%);
+    z-index: 999;
+    padding: 0 30px;
 }
 
 .logo{
@@ -45,7 +51,7 @@
     display: none;
 }
 .menu-bar ion-icon{
-    font-size: 30px;
+    font-size: 35px;
     color: #686666;
 
 }
@@ -59,6 +65,7 @@
     background: pink;
     z-index: 999;
 } */
+
 
 @media (max-width:521px){
     .logo{

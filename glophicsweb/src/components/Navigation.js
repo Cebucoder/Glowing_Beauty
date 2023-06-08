@@ -12,14 +12,7 @@ const Navigation = () => {
         login.classList.add("show-login-form");
         form.classList.add("show-form");
         body.classList.add("disable-scroll");
-    
-        // Function to enable scrolling again when the form is closed
-        // function enableScroll() {
-        //     body.classList.remove("disable-scroll");
-        // }
-    
-        // Add an event listener to listen for when the form is closed
-        // form.addEventListener("click", enableScroll);
+
     }
 
 
@@ -39,15 +32,10 @@ const Navigation = () => {
             <li>Become a Distributor</li>
            </div>
 
-           <div className="menu-bar">
+            <div className="menu-bar">
                 <ion-icon name="menu"></ion-icon>
             </div>
 
-            {/* <div className="mencont">
-
-            </div> */}
-
-            
 
         </div>
      );
