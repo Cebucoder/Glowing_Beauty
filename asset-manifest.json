@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Glowing_Beauty/static/css/main.9bb04843.css",
+    "main.js": "/Glowing_Beauty/static/js/main.03c89f89.js",
+    "static/js/787.95a3f7bd.chunk.js": "/Glowing_Beauty/static/js/787.95a3f7bd.chunk.js",
+    "static/media/3.png": "/Glowing_Beauty/static/media/3.f1738606e0fa2127c3f1.png",
+    "static/media/5.png": "/Glowing_Beauty/static/media/5.2c4dab63d8508b7bda01.png",
+    "static/media/4.png": "/Glowing_Beauty/static/media/4.1fa6e18e446d623ab065.png",
+    "static/media/6.png": "/Glowing_Beauty/static/media/6.2e292c3f1cb6199fac14.png",
+    "static/media/2.png": "/Glowing_Beauty/static/media/2.784adfc03134dc290953.png",
+    "static/media/product1.webp": "/Glowing_Beauty/static/media/product1.4dd14507e1fed3ab9321.webp",
+    "static/media/banner.webp": "/Glowing_Beauty/static/media/banner.89ca21bbb9e2b1a83925.webp",
+    "static/media/Glowing1.png": "/Glowing_Beauty/static/media/Glowing1.c32145097817f87f807d.png",
+    "index.html": "/Glowing_Beauty/index.html",
+    "main.9bb04843.css.map": "/Glowing_Beauty/static/css/main.9bb04843.css.map",
+    "main.03c89f89.js.map": "/Glowing_Beauty/static/js/main.03c89f89.js.map",
+    "787.95a3f7bd.chunk.js.map": "/Glowing_Beauty/static/js/787.95a3f7bd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9bb04843.css",
+    "static/js/main.03c89f89.js"
+  ]
+}
