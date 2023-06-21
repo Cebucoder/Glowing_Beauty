@@ -33,7 +33,7 @@ const Footer = () => {
             </div>
 
             <div className="reserved">
-                <small>© Copyright 2020 | All Rights Reserved | GlowingB.com.ph</small>
+                <small>© Copyright 2023 | All Rights Reserved | GlowingB.com.ph</small>
             </div>
 
         </div>
