@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Glowing_Beauty/static/css/main.b94cbaa2.css",
-    "main.js": "/Glowing_Beauty/static/js/main.03c89f89.js",
+    "main.css": "/Glowing_Beauty/static/css/main.e84f4667.css",
+    "main.js": "/Glowing_Beauty/static/js/main.cb460753.js",
     "static/js/787.95a3f7bd.chunk.js": "/Glowing_Beauty/static/js/787.95a3f7bd.chunk.js",
     "static/media/3.png": "/Glowing_Beauty/static/media/3.f1738606e0fa2127c3f1.png",
     "static/media/5.png": "/Glowing_Beauty/static/media/5.2c4dab63d8508b7bda01.png",
@@ -12,12 +12,12 @@
     "static/media/banner.webp": "/Glowing_Beauty/static/media/banner.89ca21bbb9e2b1a83925.webp",
     "static/media/Glowing1.png": "/Glowing_Beauty/static/media/Glowing1.c32145097817f87f807d.png",
     "index.html": "/Glowing_Beauty/index.html",
-    "main.b94cbaa2.css.map": "/Glowing_Beauty/static/css/main.b94cbaa2.css.map",
-    "main.03c89f89.js.map": "/Glowing_Beauty/static/js/main.03c89f89.js.map",
+    "main.e84f4667.css.map": "/Glowing_Beauty/static/css/main.e84f4667.css.map",
+    "main.cb460753.js.map": "/Glowing_Beauty/static/js/main.cb460753.js.map",
     "787.95a3f7bd.chunk.js.map": "/Glowing_Beauty/static/js/787.95a3f7bd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b94cbaa2.css",
-    "static/js/main.03c89f89.js"
+    "static/css/main.e84f4667.css",
+    "static/js/main.cb460753.js"
   ]
 }
